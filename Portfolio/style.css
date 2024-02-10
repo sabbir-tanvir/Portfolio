@@ -35,7 +35,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%;
+    padding: 1rem 9%;
     background: transparent;
     display: flex;
     justify-content: space-between;
@@ -51,9 +51,31 @@ body {
 
 .logo {
     position: relative;
-    font-size: 2.5rem;
-    color: var(--text-color);
-    font-weight: 600;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    width: 90%;
+    border-radius: 50%;
+    border: .2rem solid var(--main-color);
+}
+.logo .circle-spin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-top: .2rem solid var(--bg-color);
+    border-bottom: .2rem solid var(--bg-color);
+    border-left: .2rem solid var(--main-color);
+    border-right: .2rem solid var(--main-color);
+    animation: aboutSpineer 8s linear infinite;
 }
 
 .navbar {
