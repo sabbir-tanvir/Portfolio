@@ -35,7 +35,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1rem 9%;
+    padding: 1rem 9% 0.5rem;
     background: transparent;
     display: flex;
     justify-content: space-between;
@@ -799,7 +799,7 @@ section:nth-child(odd) .animate.scroll,
 
 @media (max-width: 991px) {
     .header {
-        padding: 2rem 4%;
+        padding: 1rem 4% 0.5rem;
     }
 
     section {
