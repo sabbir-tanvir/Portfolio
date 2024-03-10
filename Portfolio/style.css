@@ -951,6 +951,7 @@ section:nth-child(odd) .animate.scroll,
     }
 
     section {
+        height: 100vh;
         padding: 10rem 4% 2rem;
     }
 
@@ -964,6 +965,9 @@ section:nth-child(odd) .animate.scroll,
 }
 
 @media (max-width: 768px) {
+    section{
+        height: 100vh;
+    }
     .header {
         background: var(--bg-color);
     }
