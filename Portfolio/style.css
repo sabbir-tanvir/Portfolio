@@ -249,9 +249,10 @@ section {
 .home-sci {
     position: absolute;
     bottom: 4rem;
-    width: 170px;
+    width: 200px;
     display: flex;
     justify-content: space-between;
+
 }
 
 .home-sci a {
@@ -269,6 +270,7 @@ section {
     z-index: 1;
     overflow: hidden;
     transition: .5s;
+    margin: 5px;
 
 }
 
